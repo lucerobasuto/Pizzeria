@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pedidos de Pizzas</string>
+
+    <string name="action_settings">Opciones</string>
+    <string name="cerrar">Cerrar</string>
+
+    <string name="Clave">CLAVE:</string>
+    <string name="Cliente">CLIENTE:</string>
+    <string name="Direccion">DIRECCIÓN:</string>
+    <string name="Telefono">TELEFONO:</string>
+    <string name="Pedido">PEDIDO:</string>
+
+    <string name="alta">GUARDAR</string>
+    <string name="consulta">BUSCAR</string>
+    <string name="baja">ELIMINAR</string>
+    <string name="modificar">ACTUALIZAR</string>
+    <string name="limpiar">LIMPIAR</string>
+
+</resources>
