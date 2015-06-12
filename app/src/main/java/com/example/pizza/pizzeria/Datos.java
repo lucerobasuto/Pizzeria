@@ -12,13 +12,13 @@ public class Datos extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table pizzeria (clave integer primary key unique, cliente text, direccion text, telefono text, pedido texta text) ");
+        db.execSQL("create table pizzeria (clave integer primary key unique, cliente text, direccion text, telefono text, pedido text) ");
 
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("drop table if exists pizzeria");
-        db.execSQL("create table pizzeria (clave integer primary key unique, cliente text, direccion text, telefono text, pedido texta text) ");
+        db.execSQL("create table pizzeria (clave integer primary key unique, cliente text, direccion text, telefono text, pedido text) ");
     }
 }
